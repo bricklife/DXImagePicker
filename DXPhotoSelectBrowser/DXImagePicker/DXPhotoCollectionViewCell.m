@@ -61,7 +61,7 @@
         self.backgroundColor = [UIColor clearColor];
         self.frame = CGRectMake(frame.size.width-30, 8, 24.0, 24.0);
         self.layer.cornerRadius = 2;
-        self.image = [UIImage imageNamed:@"icon_image_checked"];
+        self.image = [UIImage imageNamed:@"DXImagePickerImage.bundle/icon_image_checked"];
     }
     return self;
 }
