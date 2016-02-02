@@ -29,7 +29,7 @@
 @property (nonatomic, strong) UIImageView *imageView;
 @property (nonatomic, strong) DXCellSelectedNumberView *numberView;
 @property (nonatomic, strong) DXCellSelectedCheckView *checkView;
-@property (nonatomic, assign) BOOL *checkMark;
+@property (nonatomic, assign) BOOL checkMark;
 
 - (void)bounce;
 

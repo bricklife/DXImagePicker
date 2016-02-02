@@ -471,9 +471,9 @@ static NSString * const CameraButton = @"CameraButton";
     
     //ここでセルのマーク指定を行いたい
     if (self.checkMark) {
-        cell.checkMark = true;
+        cell.checkMark = YES;
     } else {
-        cell.checkMark = false;
+        cell.checkMark = NO;
     }
     
     UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPressCell:)];
